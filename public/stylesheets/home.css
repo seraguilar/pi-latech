@@ -56,20 +56,43 @@ img {
 }
 .layout-home {
     display: block;
-}
+    }
+
 .layout-home h2{
-    border: 3px solid #C837C2;
+    border: 2px solid #37C83D;
     color: #37C83D;
-    background-color: #d9d9d973;
+    background-color: rgb(221, 217, 217);
     border-radius: 10px;
     text-transform: uppercase;
     padding: 60px;
-    font-size: 24px;
+    font-size: 20px;
     float: left;
 }
 .layout-imagens{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(221, 217, 217);
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.layout-oferta{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(221, 217, 217);
+}
+
+.produtos-home {
+    border: 2px solid #37C83D;
+    padding: 5px
+}
+
+#mon {
+    width: 160px;
+    height: 170px;
 }
 
